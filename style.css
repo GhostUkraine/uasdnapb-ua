@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "ZenKakuGothicAntique";
+    src: url(shrift/ZenKakuGothicAntique-Medium.woff2),
+    url(shrift/ZenKakuGothicAntique-Medium.woff);
+    font-weight: 500;
+    font-display:swap ;
+    font-style: normal;
+}
+body{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/о.png) ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+.item {
+    width: 300px;
+    height: 1000px;
+}
+#header {
+    height: 200px;
+    
+}
+#content {
+    min-height: 300px;
+    margin: 100px 610px;
+    display: inline-block;
+
+}
+/* #1 float */
+#youtube {float:left; width: 25%;}
+        
